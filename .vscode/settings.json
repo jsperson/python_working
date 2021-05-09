@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\scott2\\python.exe",
+    "python.pythonPath": "C:\\Users\\jsper\\.conda\\envs\\scott\\python.exe",
     "python.formatting.provider": "autopep8",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
