@@ -7,3 +7,5 @@ LearningPython/lpsource/code/__pycache__/rangetest1.cpython-38.pyc
 examples/efficient_code/__pycache__/test_functions.cpython-38-pytest-6.2.3.pyc
 .vscode/settings.json
 
+examples/pandas/tmp_clean_stock_data.csv
+examples/pandas/file_clean.xlsx
