@@ -2,7 +2,11 @@ import requests
 import os
 file_path = os.path.dirname(os.path.abspath(__file__))
 
-r = requests.get('https://xkcd.com/353/')  
+proxies = {
+    "http": "gateway.zscalertwo.net:10077"
+}
+
+r = requests.get('https://xkcd.com/353/', proxies=proxies)  
 #print(r.status_code)
 #print(dir(r))
 #print(help(r))
