@@ -9,3 +9,9 @@ examples/efficient_code/__pycache__/test_functions.cpython-38-pytest-6.2.3.pyc
 
 examples/pandas/tmp_clean_stock_data.csv
 examples/pandas/file_clean.xlsx
+examples/boto3/params.py
+examples/boto3/jsp_params.py
+examples/boto3/__pycache__/jsp_params.cpython-38.pyc
+examples/boto3/__pycache__/params.cpython-38.pyc
+.devcontainer/Dockerfile
+.devcontainer/devcontainer.json
