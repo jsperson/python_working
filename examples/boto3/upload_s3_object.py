@@ -7,5 +7,7 @@ s3 = boto3.client('s3', region_name='us-east-1',
 s3.upload_file(
     Filename='list_s3.py',
     Bucket='scott-test-bucket-1972',
-    Key='list_s3.py'
+    Key='list_s3.py',
+    # Make file public readable - this is not recommended
+    ExtraArgs={'ACL': 'public-read'}
 )
