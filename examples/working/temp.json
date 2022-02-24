@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2022-02-22T18: 08: 41.589Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AROA37IZ5O5LPTGONOOV5:de-balance-1-run-queries"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "54.237.64.77"
+            },
+            "responseElements": {
+                "x-amz-request-id": "RMGKD70YGEFMFYX1",
+                "x-amz-id-2": "30Q3PeaFe0oTM1ya9IEMKCJf/ic+qirZND9zwKN2b47DH9J+pZeO5ClPDjDwvHjW7zGff9rTVKfZ4E/TrKcwkCya3Me1hGM6wRrBzIxswO8="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "072e9ae1-4123-48a0-9bd9-9e322ebc6ef1",
+                "bucket": {
+                    "name": "dsi-dev-de-balance-query-results",
+                    "ownerIdentity": {
+                        "principalId": "A1HWYLREEYC115"
+                    },
+                    "arn": "arn:aws:s3: : :dsi-dev-de-balance-query-results"
+                },
+                "object": {
+                    "key": "AE/athena/20220222-180819/72b212f7-7d6f-4bb9-8da8-52fb536318ee.csv",
+                    "size": 110501,
+                    "eTag": "b01299c2ac3d7dd254171e6f8c2d38fe",
+                    "sequencer": "00621526A9899CC95A"
+                }
+            }
+        }
+    ]
+}
