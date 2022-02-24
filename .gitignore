@@ -15,3 +15,5 @@ examples/boto3/__pycache__/jsp_params.cpython-38.pyc
 examples/boto3/__pycache__/params.cpython-38.pyc
 .devcontainer/Dockerfile
 .devcontainer/devcontainer.json
+examples/kinesis_lambda/jsp_params.py
+examples/kinesis_lambda/__pycache__/jsp_params.cpython-38.pyc
